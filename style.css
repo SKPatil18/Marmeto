@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+body {
+  font-family: Arial, sans-serif;
+}
+.tab{
+  /* cursor: pointer;
+  padding: 10px;
+  background-color: #d21919;
+  display: inline-block;
+  width: 50%; */
+  cursor: pointer;
+  padding: 1vw;
+  background-color: #f0f0f0;
+  display: inline-block;
+  width: 20vw;
+  
+
+}
+.category {
+  display: none;
+}
+
+img {
+  width: 16vw;
+  height:20vw;
+  border-radius: 0.5vw;
+}
+.Men{
+  display: flex;
+  flex-wrap: wrap; 
+ 
+}
+.tabs{
+  display: flex;
+  width: 100vw;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+
+}
+.product{
+  width: 80vw; 
+  margin-bottom: 0vw; 
+  display: block;
+  padding-left: 0vw;
+  padding-top: 3vw;
+
+
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  background-color: red;
+}
+
+div{
+  display: flex;
+}
+div.product{
+  padding-left: 5vw;
+
+}
+.title{
+  display: flex;
+  /* background-color: red; */
+  padding-top: 0vw;
+  height: 2vw;
+}
+h1{
+  text-align: center;
+  color: rgb(12, 12, 12);
+  text-transform: uppercase;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+
+}
+h2{
+  display: none;
+}
+.innerdiv{
+  display: flex;
+  gap: 10px;
+}
+.two-line-text {
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: clip; 
+  width: 10vw; 
+  height: 10vw; 
+  line-height: 1vw; 
+  text-overflow: ellipsis;
+}
+button{
+  width: 16vw;
+  height: 2vw;
+  background-color:#000000;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+div.tabs{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.tab:active{
+  background-color: black;
+  color: rgb(249, 246, 246);
+}
+
+
+
+@media only screen and (max-width: 767px) {
+  .tab {
+      width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .tab {
+      width: 50%;
+  }
+}
